@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapas xmlns="http://www.uniovi.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <etapa>
+        <nombre_etapa>La Calahorra a Collado del Alguacil</nombre_etapa> 
+        <numero_etapa>20</numero_etapa>
+        <longitud_etapa unidades="Km">186,8</longitud_etapa>
+        <fecha>Sábado, 12 de septiembre</fecha>
+        <tiempo_recorrido_ganador>04h 58' 01''</tiempo_recorrido_ganador>
+        <velocidad_media_ganador unidades="Km/h">37,608634867</velocidad_media_ganador>
+        <desnivel unidades="m">4890</desnivel>
+        <lugar_inicio>:La Calahorra</lugar_inicio>
+        <lugar_fin>Collado del Alguacil</lugar_fin>
+        <tipo_etapa>Etapa de Montaña</tipo_etapa>
+        <referencias>
+            <referencia>https://www.campusvirtual.uniovi.es/pluginfile.php/629035/mod_folder/content/0/libro-de-ruta-interactivo-lv26.pdf</referencia>
+            <referencia>https://www.lavuelta.es/es</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a</referencia>
+        </referencias>
+        <fotografias_etapa>
+            <fotografia_etapa>img1.jpg</fotografia_etapa>
+            <fotografia_etapa>img2.jpg</fotografia_etapa>
+            <fotografia_etapa>img3.jpg</fotografia_etapa>
+        </fotografias_etapa>
+        <videos_etapa>
+            <video_etapa>vid1.mp4</video_etapa>
+            <video_etapa>vid2.mp4</video_etapa>
+            <video_etapa>vid3.mp4</video_etapa>
+        </videos_etapa>
+        <sonidos_etapa>
+            <sonido_etapa>aud1.mp3</sonido_etapa>
+            <sonido_etapa>aud2.mp3</sonido_etapa>
+            <sonido_etapa>aud3.mp3</sonido_etapa>
+        </sonidos_etapa>
+        <posicion_inicio>
+            <latitud unidades="º">37,18</latitud>
+            <longitud unidades="º">-3,06</longitud>
+            <altitud unidades="m">1182</altitud>
+        </posicion_inicio>
+        <posicion_fin>
+            <latitud unidades="º">37.17</latitud>
+            <longitud unidades="º">-3.36</longitud>
+            <altitud unidades="m">1884</altitud>
+        </posicion_fin>
+        <hitos>
+            <puerto_montaña distancia_salida="50,7" categoría="3" bonificado="false">
+                <latitud unidades="º">37,25</latitud>
+                <longitud unidades="º">-3,37</longitud>
+                <altitud unidades="m">1298</altitud>
+            </puerto_montaña>
+            <puerto_montaña distancia_salida="94,3" categoría="1" bonificado="false">
+                <latitud unidades="º">37,13</latitud>    
+                <longitud unidades="º">-3,47</longitud>
+                <altitud unidades="m">1483</altitud>
+            </puerto_montaña>
+            <puerto_montaña distancia_salida="125,5" categoría="1" bonificado="true">
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,47</longitud>
+                <altitud unidades="m">1674</altitud>
+            </puerto_montaña>
+            <puerto_montaña distancia_salida="155,4" categoría="especial" bonificado="false">
+                <latitud unidades="º">37.13</latitud>
+                <longitud unidades="º">-3.4</longitud>
+                <altitud unidades="m">1884</altitud> 
+            </puerto_montaña>
+            <sprint_intermedio distancia_salida="145">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,44</longitud>
+                <altitud unidades="m">1067</altitud>
+            </sprint_intermedio>
+        </hitos>
+        <puntos_anonimos>
+            <punto_anonimo distancia_salida="4,6" nombre="Alquife">
+                <latitud unidades="º">37,17</latitud>
+                <longitud unidades="º">-3,11</longitud>
+                <altitud unidades="m">1193</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="8,5">
+                <latitud unidades="º">37,17</latitud>
+                <longitud unidades="º">-3,15</longitud>
+                <altitud unidades="m">1180</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="9" nombre="Jérez del Marquesado">
+                <latitud unidades="º">37,18</latitud>
+                <longitud unidades="º">-3,15</longitud>
+                <altitud unidades="m">1255</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="23,5" nombre="Guadix">
+                <latitud unidades="º">37,3</latitud>
+                <longitud unidades="º">-3,14</longitud>
+                <altitud unidades="m">930</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="29,8" nombre="Purullena">
+                <latitud unidades="º">37,31</latitud>
+                <longitud unidades="º">-3,18</longitud>
+                <altitud unidades="m">1021</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="41" nombre="La Peza">
+                <latitud unidades="º">37,28</latitud>
+                <longitud unidades="º">-3,29</longitud>
+                <altitud unidades="m">1037</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="63,8" nombre="Quéntar">
+                <latitud unidades="º">37,19</latitud>
+                <longitud unidades="º">-3,46</longitud>
+                <altitud unidades="m">940</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="66" nombre="Dúdar">
+                <latitud unidades="º">37,18</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">888</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="71">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,52</longitud>
+                <altitud unidades="m">780</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="78,8" nombre="Granada">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,57</longitud>
+                <altitud unidades="">705</altitud>
+            </punto_anonimo> 
+            <punto_anonimo distancia_salida="80,01"> <!--Punto 6-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,58</longitud>
+                <altitud unidades="m">693</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="80,7" nombre="Huétor Vega">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,57</longitud>
+                <altitud unidades="m">714</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="85,6"> <!--Punto 7-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,53</longitud>
+                <altitud unidades="m">955</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="91,3"> <!--Punto 8-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,5</longitud>
+                <altitud unidades="m">1327</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="95,2"> <!--Intersección 1-->
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,46</longitud>
+                <altitud unidades="m">1446</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="97,3"> <!--Punto 9-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1367</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="99,7"> <!--Punto 10-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1130</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="102"> <!--Intersección 2-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,49</longitud>
+                <altitud unidades="m">1047</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="110">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,57</longitud>
+                <altitud unidades="m">685</altitud>
+            </punto_anonimo> 
+            <punto_anonimo distancia_salida="111"> <!--Punto 6-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,58</longitud>
+                <altitud unidades="m">693</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="112" nombre="Huétor Vega">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,57</longitud>
+                <altitud unidades="m">714</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="118"> <!--Punto 7-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,53</longitud>
+                <altitud unidades="m">955</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="123"> <!--Punto 8-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,5</longitud>
+                <altitud unidades="m">1327</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="127"> <!--Intersección 1-->
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,46</longitud>
+                <altitud unidades="m">1446</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="129"> <!--Punto 9-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1367</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="131"> <!--Punto 10-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1130</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="133"> <!--Intersección 2-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,49</longitud>
+                <altitud unidades="m">1047</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="135,8" nombre="Pinos Genil">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,5</longitud>
+                <altitud unidades="m">796</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="140"> <!--Punto 12-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">872</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="145" nombre="Güejar Sierra">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,44</longitud>
+                <altitud unidades="m">1067</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="146"> <!--Intersección 3-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,43</longitud>
+                <altitud unidades="m">1104</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="148">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,41</longitud>
+                <altitud unidades="m">1025</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="151">
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,39</longitud>
+                <altitud unidades="m">1302</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="155">
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,42</longitud>
+                <altitud unidades="m">1594</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="158">
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,44</longitud>
+                <altitud unidades="m">1572</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="161"> <!--Intersección 1-->
+                <latitud unidades="º">37,13</latitud>
+                <longitud unidades="º">-3,46</longitud>
+                <altitud unidades="m">1446</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="163"> <!--Punto 9-->
+                <latitud unidades="º">37,14</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1367</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="165"> <!--Punto 10-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">1130</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="167"> <!--Intersección 2-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,49</longitud>
+                <altitud unidades="m">1047</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="169,7" nombre="Pinos Genil">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,5</longitud>
+                <altitud unidades="m">796</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="176"> <!--Punto 12-->
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,48</longitud>
+                <altitud unidades="m">872</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="177,9" nombre="Güejar Sierra">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,44</longitud>
+                <altitud unidades="m">1067</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="182">
+                <latitud unidades="º">37,15</latitud>
+                <longitud unidades="º">-3,41</longitud>
+                <altitud unidades="m">1246</altitud>
+            </punto_anonimo>
+            <punto_anonimo distancia_salida="185">
+                <latitud unidades="º">37,16</latitud>
+                <longitud unidades="º">-3,39</longitud>
+                <altitud unidades="m">1535</altitud>
+            </punto_anonimo>
+        </puntos_anonimos>
+        <primeros_clasificados_etapa distancia_primero_segundo="00h 00' 47'' " distancia_primero_tercero="00h 01' 27'' ">
+            <ciclista>M. Landa</ciclista>
+            <ciclista>T. Johanessen</ciclista>
+            <ciclista>R. Debruyne</ciclista>
+        </primeros_clasificados_etapa>
+        <primeros_clasificados_general distancia_primero_segundo="00h 02' 15'' " distancia_primero_tercero="00h 02' 44'' ">
+            <ciclista>E. Mas</ciclista>
+            <ciclista>P. Roglic</ciclista>
+            <ciclista>F. Gall</ciclista>
+        </primeros_clasificados_general>
+        <primeros_clasificados_equipos distancia_primero_segundo="00h 39' 01'' " distancia_primero_tercero="00h 57' 36''">
+            <equipo nombre="DECATHLON CMA CGM TEAM"></equipo>
+            <equipo nombre="XDS ASTANA CLUB"></equipo>
+            <equipo nombre="BAHRAIN VICTORIOUS"></equipo>
+        </primeros_clasificados_equipos>
+    
+    </etapa>
+</etapas>

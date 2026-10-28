@@ -1,0 +1,150 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos:Ferran Gordo Olaso*/
+/*  Correo electrónico (uniovi):UO308803@uniovi.es
+/*  Grupo de laboratorio:10              */
+/* ***************************************/
+
+
+
+/*Especificidad 004*/
+body main section:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*Especificidad 004*/
+body main section h3 {
+    flex-basis: 100%;
+}
+
+/*Especificidad 005*/
+body main section:has(picture) picture {
+    order: 1;
+}
+
+/*Especificidad 005*/
+body main section:has(picture) ul {
+    order: 2;
+}
+
+/*Especificidad: 004*/
+body>nav ol li {
+    display: inline;
+}
+
+/*Especificidad 013*/
+body main section:last-child:has(audio):has(video) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Especificidad 014*/
+body main section:last-child h3 {
+    flex-basis: 100%;
+}
+
+/*Especificidad 005*/
+body main section:has(article+article) {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/*Especificidad 006*/
+body main section:has(article+article) h3 {
+    grid-area: 1 / 1 / 2 / -1;
+    /*This is technically the same as grid-start/end/ect but in a single line*/
+}
+
+/*Especificidad 001*/
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+    grid-template-rows: auto auto 1fr auto;
+    margin: 0;
+}
+
+/*Especificidad 002*/
+body header {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/*Especificidad 003*/
+body header+nav {
+    grid-area: migas;
+}
+
+/*Especificidad 002*/
+body main {
+    grid-area: contenido;
+}
+
+/*Especificidad 002*/
+body footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+
+    /*Especificidad 005*/
+    body main section:has(article+article) {
+        grid-template-columns: auto auto;
+    }
+
+    /*Especificidad: 004*/
+    body>nav ol li {
+        visibility: hidden;
+    }
+
+    /*Especificidad: 002*/
+    body header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body header nav {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /*Especificidad 005*/
+    body main section:has(article+article) {
+        grid-template-columns: auto;
+    }
+
+    /*Especificidad: 004*/
+    body>nav ol li {
+        visibility: hidden;
+    }
+
+    /*Especificidad: 004*/
+    body header nav a{
+        display: flow;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}

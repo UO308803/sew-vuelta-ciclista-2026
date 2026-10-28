@@ -1,0 +1,17 @@
+Cambiado targetNamespace a http://www.uniovi.es
+
+etapas ahora tiene un rango de [1, 21] etapa(s)
+numero_etapa es un xs:integer con restricción al rango [1, 21]
+longitud_etapa es un xs:float
+fecha es un xs:date
+tiempo_recorrido_ganador es un xs:time
+velocidad_media_ganador es un xs:float
+desnivel es un xs:float
+tipo_etapa sólo puede ser "Llana", "Montaña", "Contrarreloj individual", "Contrarreloj por equipos", "Media montaña"
+referencias, fotografias_etapa, videos_etapa y sonidos_etapa tienen restricción de cantidad (de acuerdo con los requisitos)
+latitud, longitud y altitud son xs:float
+en puerto_montaña, bonificado es un xs:boolean
+en puerto montaña, sprint_intermedio, sprint_bonificado y punto_anonimo distancia_salida es un xs:float
+en primeros_clasificados_etapa, primeros_clasificados_equipos y primeros_clasificados_general distancia_primero_segundo y distancia_primero_tercero son xs:time
+equipo tiene una restricción de cantidad mínima de ciclistas a 1
+

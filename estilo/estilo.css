@@ -1,0 +1,113 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos:Ferran Gordo Olaso*/
+/*  Correo electrónico (uniovi):UO308803@uniovi.es
+/*  Grupo de laboratorio:10              */ 
+/* ***************************************/
+
+/* Gama cromática
+Color principal: 3524B7
+    - Contraste de 3,38:1 con color secundario
+    - Contraste de 10.05:1 con blanco
+    - Contraste de 2.08:1 con negro
+Color secundario: 459ED2
+    - Contraste de 2.96:1 con blanco
+    - Contraste de 7:07 con negro
+ */
+
+/*Especificidad: 001*/
+body { 
+	font-family: Verdana,Geneva,sans-serif; 
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+}
+
+/*Especificidad: 001*/
+h1 {
+    color: var(--color-principal);
+}
+
+/*Especificidad: 001*/
+header {
+    color: var(--color-principal);
+    background-color: var(--color-secundario);
+}
+
+/*Especificidad: 001*/
+footer {
+    color: var(--color-negro);
+    background-color: var(--color-secundario);
+}
+
+/*Especificidad: 002, 002*/
+header a, footer a {
+    color: var(--color-negro);
+    text-decoration: none;
+}
+
+/*Especificidad: 011*/
+header [aria-current="page"] {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
+
+/*Especificidad: 004*/
+body > nav ol{
+    font-size: 0.85em;
+    list-style: none;
+}
+
+/*Especificidad: 014*/
+body > nav ol li:last-child {
+    font-weight: bold;
+}
+
+/*Especificidad 005*/
+body main section:has(picture) ul {
+    list-style:none;
+}
+
+/*Especificidad 015*/
+body main section:has(picture) li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Especificidad 015*/
+body main section:has(picture) li:nth-child(3) {
+    font-size: 1.2em;
+}
+
+/*Especificidad 015*/
+body main section:has(picture) li:nth-child(4) {
+    font-weight: bold;
+}
+
+/*Especificidad 004, 005, 005*/
+body main section table , body main section table th, body main section table td{
+    border: 1px solid;
+}
+
+/*Especificidad 005*/
+body main section table th {
+    font-weight: bold;
+}
+
+
+
+
+
+
+:root {
+    --color-principal: #3524B7;
+    --color-secundario: #459ED2;
+    --color-negro: #001514;
+    --color-blanco: #FFFFFF;
+}
+
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Ferran Gordo Olaso" />
+    <meta name="description" content="Documento juegos del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.png" />
+</head>
+
+<body>
+    <!-- contenido de ciclista.html  -->
+    <header>
+        <h1><a href="index.html" title="Página principal">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Índice de la página web">Inicio</a>
+            <a href="ciclista.html" title="Información de los ciclistas que compiten en La Vuelta">Ciclista</a>
+            <a href="equipo.html" title="Información de los equipos que compiten en La Vuelta">Equipo</a>
+            <a href="etapa.html" title="Información sobre las distintas etapas de La Vuelta">Etapa</a>
+            <a href="meteorologia.html" title="Datos meteorológicos pertinentes a La Vuelta">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de los distintos competidores">Clasificaciones</a>
+            <a href="juegos.html" aria-current="page" title="Juegos temáticos ?">Juegos</a>
+            <a href="ayuda.html" title="Asistencia para la navegación y uso de la página">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Índice de la página web">Inicio</a></li>
+            <li> / </li>
+            <li><a href="juegos.html" title="Juegos temáticos ?">Juegos</a></li>
+        </ol>
+    </nav>
+    <main>
+        <h2>Juegos</h2>
+        <section>
+            <h3>¿Conoces la etapa?</h3>
+            <p>A continuación podrás realizar un pequeño juego de 10 preguntas para poner a prueba tu conocimiento.</p>
+            <form id="form_id">
+                <fieldset>
+                    <legend>Cuestionario</legend>
+                    <p>
+                        <label for="p1">¿Cuál es el número de la etapa explicada en esta página?</label>
+                        <input id="p1" name="p1" type="number" min="1" max="21" />
+                    </p>
+                    <p>
+                        <label for="p2">¿Cuándo tuvo lugar dicha etapa?</label>
+                        <input id="p2" name="p2" type="date" min="2026-01-01" max="2026-12-12" />
+                    </p>
+                    <p>
+                        <label for="p3">¿En qué lugar se inicia la etapa?</label>
+                        <select id="p3">
+                            <option value="Monaco">Monaco</option>
+                            <option value="Castelló">Castelló</option>
+                            <option value="Xeraco">Xeraco</option>
+                            <option value="La Calahorra">La Calahorra</option>
+                            <option value="Lorca">Lorca</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="p4r1">¿De qué tipo es?</label>
+
+                        <label><input id="p4r1" name="p4r1" value="Llana" type="radio" />Llana</label>
+                        <label><input name="p4r2" value="Media montaña" type="radio" />Media montaña</label>
+                        <label><input name="p4r3" value="Montaña" type="radio" />Montaña</label>
+                        <label><input name="p4r4" value="Contrarreloj individual" type="radio" />Contrarreloj
+                            individual</label>
+                        <label><input name="p4r5" value="Contrarreloj por equipos" type="radio" />Contrarreloj por
+                            equipos</label>
+                    </p>
+                    <p>
+                        <label for="p5c1">¿Cuáles de estos elementos incluye la etapa?</label>
+
+                        <label><input id="p5c1" name="p5r1" value="Puerto de montaña" type="checkbox" />Puerto de
+                            montaña</label>
+                        <label><input name="p5r2" value="Puerto categoría especial" type="checkbox" />Puerto de
+                            categoría especial</label>
+                        <label><input name="p5r3" value="Sprint bonificado" type="checkbox" />Sprint
+                            bonificado</label>
+                        <label><input name="p5r4" value="Sprint intermedio" type="checkbox" />Sprint
+                            intermedio</label>
+                        <label><input name="p5r5" value="Sin hitos" type="checkbox" />Sin hitos</label>
+                    </p>
+                    <p>
+                        <label for="p6">¿Cuál es la dificultad de la etapa?</label>
+                        <input id="p6" name="p6" type="range" min="1" max="10" value="1" />
+                    </p>
+                    <p>
+                        <label for="p7">¿Cuál es la longitud de la etapa en Km?</label>
+                        <input id="p7" name="p7" type="number" min="0" />
+                    </p>
+                    <p>
+                        <label for="p8">¿Cuál es el desnivel de la etapa?</label>
+                        <input id="p8" name="p8" type="number" min="0" />
+                    </p>
+                    <p>
+                        <label for="p9">Respuesta libre: </label>
+                        <input id="p9" name="p9" type="text" />
+                    </p>
+                    <p>
+                        <label for="p10">Nombre del participante: </label>
+                        <input id="p10" name="p10" type="text" />
+                    </p>
+                </fieldset>
+            </form>
+            <button type="submit" form="form_id">Terminar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Ferran Gordo Olaso</p>
+        <address>
+            <a href="mailto:UO308803@uniovi.es">UO308803@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+
+
+
+</html>

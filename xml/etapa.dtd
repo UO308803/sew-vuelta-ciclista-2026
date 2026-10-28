@@ -1,0 +1,70 @@
+<!ELEMENT etapas (etapa+)>
+<!ELEMENT etapa (nombre_etapa, numero_etapa, longitud_etapa, fecha, tiempo_recorrido_ganador, velocidad_media_ganador, desnivel, lugar_inicio, lugar_fin, tipo_etapa, referencias, fotografias_etapa, videos_etapa, sonidos_etapa, posicion_inicio, posicion_fin, hitos, puntos_anonimos, primeros_clasificados_etapa, primeros_clasificados_general, primeros_clasificados_equipos)>
+<!ELEMENT nombre_etapa (#PCDATA)>
+<!ELEMENT numero_etapa (#PCDATA)>
+<!ELEMENT longitud_etapa (#PCDATA)>
+<!ATTLIST longitud_etapa
+    unidades CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempo_recorrido_ganador (#PCDATA)>
+<!ELEMENT velocidad_media_ganador (#PCDATA)>
+<!ATTLIST velocidad_media_ganador
+    unidades CDATA #REQUIRED>
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel
+    unidades CDATA #REQUIRED>
+<!ELEMENT lugar_inicio (#PCDATA)>
+<!ELEMENT lugar_fin (#PCDATA)>
+<!ELEMENT tipo_etapa (#PCDATA)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT fotografias_etapa (fotografia_etapa+)>
+<!ELEMENT fotografia_etapa (#PCDATA)>
+<!ELEMENT videos_etapa (video_etapa+)>
+<!ELEMENT video_etapa (#PCDATA)>
+<!ELEMENT sonidos_etapa (sonido_etapa+)>
+<!ELEMENT sonido_etapa (#PCDATA)>
+<!ELEMENT posicion_inicio (latitud, longitud, altitud)>
+<!ELEMENT posicion_fin (latitud, longitud, altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud
+    unidades CDATA #REQUIRED>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud
+    unidades CDATA #REQUIRED>
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud
+    unidades CDATA #REQUIRED>
+<!ELEMENT hitos (puerto_montaña+, sprint_intermedio, sprint_bonificado*)>
+<!ELEMENT puerto_montaña (latitud, longitud, altitud)>
+<!ATTLIST puerto_montaña
+    distancia_salida CDATA #REQUIRED
+    categoría CDATA #REQUIRED
+    bonificado CDATA #REQUIRED>
+<!ELEMENT sprint_bonificado (latitud, longitud, altitud)>
+<!ATTLIST sprint_bonificado
+    distancia_salida CDATA #REQUIRED>
+<!ELEMENT sprint_intermedio (latitud, longitud, altitud)>
+<!ATTLIST sprint_intermedio
+    distancia_salida CDATA #REQUIRED>
+<!ELEMENT puntos_anonimos (punto_anonimo+)>
+<!ELEMENT punto_anonimo (latitud, longitud, altitud)>
+<!ATTLIST punto_anonimo
+    distancia_salida CDATA #REQUIRED
+    nombre CDATA #IMPLIED>
+<!ELEMENT primeros_clasificados_etapa (ciclista+)>
+<!ATTLIST primeros_clasificados_etapa
+    distancia_primero_segundo CDATA #REQUIRED
+    distancia_primero_tercero CDATA #REQUIRED>
+<!ELEMENT primeros_clasificados_general (ciclista+)>
+<!ATTLIST primeros_clasificados_general
+    distancia_primero_segundo CDATA #REQUIRED
+    distancia_primero_tercero CDATA #REQUIRED>
+<!ELEMENT primeros_clasificados_equipos (equipo+)>
+<!ATTLIST primeros_clasificados_equipos
+    distancia_primero_segundo CDATA #REQUIRED
+    distancia_primero_tercero CDATA #REQUIRED>
+<!ELEMENT ciclista (#PCDATA)>
+<!ELEMENT equipo (ciclista*)>
+<!ATTLIST equipo
+    nombre CDATA #REQUIRED>
